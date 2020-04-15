@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+  line-height: 2;
+  width: 100%
+}
+
+h1 {
+  font-size: 7rem;
+  margin: 50px auto 0 auto ;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.25rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #11999E;
+}
+
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  padding: 0 15px 0 15px;
+}
+
+hr {
+  border-style: dotted;
+  width: 4%;
+  border-bottom: none;
+  border-color:#EAF6F6;
+  border-top-width: 7px;
+  margin: 5rem auto;
+
+}
+
+p {
+  font-size: 1.5rem;
+}
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.title {
+  position: relative;
+  min-width: 400px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 1em;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 1em;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.profile-img {
+  border-radius: 100%;
+}
+
+.middle-container {
+  padding-top: 5rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 8rem auto;
+  text-align: left;
+}
+
+.skills-img1 {
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.skills-img2 {
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-bottom: 5rem;
+}
+
+.btn {
+  background-image: linear-gradient(#76dbd1, #57a99a);
+  margin-top: 2rem;
+  font-family: 'Montserrat';
+  border: none;
+  padding: 0.7%;
+  border-radius: 10%;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: white;
+
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-image: linear-gradient(#a4d1c8, #99d8d0);
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 1.5em;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+  }
+
+.footer-text {
+  margin-top: 2rem;
+  color: #EAF6F6;
+  font-size: 0.8em;
+  font-family: inherit;
+}
